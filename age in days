@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main ()
+{
+    long long x, year, temp1, month, day;
+    //printf("Inset age in days\n");
+    scanf("%lld", &x);
+    year=x/365;
+    printf("%lld years\n", year);
+    temp1=x%365;
+    month=temp1/30;
+    printf("%lld months\n", month);
+    day=temp1%30;
+ 
+    printf("%lld days\n", day);
+ 
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main ()
+{
+    long long x, y, a, b, c;
+    scanf("%lld%lld", &x, &y);
+    a = (x+y);
+    b = (x*y);
+    c = (x-y);
+    printf("%lld + %lld = %lld\n", x, y, a);
+    printf("%lld * %lld = %lld\n", x, y, b);
+    printf("%lld - %lld = %lld\n", x, y, c);
+ 
+    return 0;
+}
